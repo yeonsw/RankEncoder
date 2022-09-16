@@ -1,7 +1,7 @@
 # Getting Started
 
 ### Requirements
-You need at least two GPUs for the following instructions.
+You need at least two GPUs to proceed the following instructions.
 
 ### Setting
 1. Set the project directory
@@ -25,7 +25,7 @@ mv wiki1m_for_simcse.txt ../../data/corpus/corpus.txt
 bash random_sampling_sentences.sh
 ```
 
-### Training the base encoder (SimCSE)
+### Training the base encoder ([SimCSE](https://aclanthology.org/2021.emnlp-main.552/))
 Go to code/SimCSE\_RankEncoder and execute the following command
 ```bash
 bash run_simcse.sh
@@ -42,12 +42,12 @@ bash run_simcse_rank_encoder.sh
 ```
 
 ### Evaluation
-1. You can evaluate the performance of RankEncoder whtout Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf) with the following command
+1. The following command compute the performance of RankEncoder (without Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf))
 ```bash
 bash evaluation.sh
 ```
 
-2. You can evaluate the performance of RankEncoder (Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf)) with the following command
+2. The following command compute the performance of RankEncoder (Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf))
 ```bash
 bash get_rank_encoder_embedding.sh
 bash simcse_rank_encoder_inference.sh
