@@ -20,7 +20,6 @@ import torch
 import transformers
 from transformers import AutoModel, AutoTokenizer
 from transformers import BertTokenizer, BertModel
-from transformers import DPRQuestionEncoderTokenizerFast, DPRQuestionEncoder
 from tqdm import tqdm
 # Set up logger
 logging.basicConfig(format='%(asctime)s : %(message)s', level=logging.DEBUG)
@@ -34,7 +33,6 @@ sys.path.insert(0, PATH_TO_SENTEVAL)
 import senteval
 from senteval.sts import STS12Eval, STS13Eval, STS14Eval, STS15Eval, STS16Eval, STSBenchmarkEval
 from senteval.sts import SICKRelatednessEval
-from senteval.utils import cosine
 
 def normalize(vecs):
     eps = 1e-8
