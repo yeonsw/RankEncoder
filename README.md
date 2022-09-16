@@ -9,7 +9,7 @@ Previous unsupervised sentence embedding studies have focused on data augmentati
 Please see [README.md](https://github.com/yeonsw/RankEncoder/tree/main/code/SimCSE_RankEncoder) at code/SimCSE\_RankEncoder
 
 ### PromptBERT-RankEncoder
-We will upload the implementation of PromptBERT-RankEnocder soon
+Please see [README.md](https://github.com/yeonsw/RankEncoder/tree/main/code/PromptBERT_RankEncoder) at code/PromptBERT\_RankEncoder
 
 ### SNCSE-RankEncoder
 We will upload the implementation of SNCSE-RankEnocder soon
