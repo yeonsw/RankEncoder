@@ -33,15 +33,19 @@ We recommend to use the SNCSE checkpoint provided the authors. Please follow the
 Please see details at [this link](https://github.com/Sense-GVT/SNCSE) if you want to train SNCSE from scratch. 
 
 ### Training RankEncoder
-1. Generate soft negative samples (please see details in the [SNCSE paper](https://arxiv.org/abs/2201.05979))
+1. Download the following model
+```bash
+python -m spacy download en_core_web_sm
+```
+2. Generate soft negative samples (please see details in the [SNCSE paper](https://arxiv.org/abs/2201.05979))
 ```bash
 bash generate_soft_negative_samples.sh
 ```
-2. Get sentence vectors with the base encoder
+3. Get sentence vectors with the base encoder
 ```bash
 bash get_sncse_embedding.sh
 ```
-3. Train RankEncoder
+4. Train RankEncoder
 ```bash
 cd ./sncse_rank_encoder/
 bash sncse_rank_encoder.sh
