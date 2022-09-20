@@ -10,7 +10,7 @@ export PROJECT_DIR=/path/to/this/project/folder
 ```
 Note that there is no "/" at the end, e.g., /home/RankEncoder.
 
-2. Download the SentEval folder at https://github.com/princeton-nlp/SimCSE and locate the file at code/SimCSE\_RankEncoder/
+2. Download the SentEval folder at https://github.com/princeton-nlp/SimCSE and locate the file at code/PromptBERT\_RankEncoder/
 3. Go to SentEval/data/downstream and execute the following command
 ```bash 
 bash download_dataset.sh
