@@ -18,3 +18,4 @@ tensorflow_hub==0.12.0
 torch==1.10.0
 tqdm==4.49.0
 transformers==4.2.1
+spacy==3.4.1
