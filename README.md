@@ -12,7 +12,7 @@ Please see [README.md](https://github.com/yeonsw/RankEncoder/tree/main/code/SimC
 Please see [README.md](https://github.com/yeonsw/RankEncoder/tree/main/code/PromptBERT_RankEncoder) at code/PromptBERT\_RankEncoder
 
 ### SNCSE-RankEncoder
-We will upload the implementation of SNCSE-RankEnocder soon
+Please see [README.md](https://github.com/yeonsw/RankEncoder/tree/main/code/SNCSE_RankEncoder) at code/SNCSE\_RankEncoder
 
 ## Code Reference
 https://github.com/princeton-nlp/SimCSE
