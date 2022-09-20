@@ -26,7 +26,7 @@ bash random_sampling_sentences.sh
 ```
 
 ### Training the base encoder ([SNCSE](https://arxiv.org/abs/2201.05979))
-We recommend to use the SNCSE checkpoint provided the authors. Please follow the instruction below.
+We recommend to use the SNCSE checkpoint provided by the authors. Please follow the instruction below.
 1. Download SNCSE-bert-base-uncased.zip file at [this link](https://drive.google.com/drive/folders/1w2srzbtTMLlaxUx-7ETV9vQWdw_6lVuN?usp=sharing)
 2. Unzip this file and locate the SNCSE-bert-base-uncased folder in $PROJECT\_DIR/outputs/sncse/checkpoints/
 
