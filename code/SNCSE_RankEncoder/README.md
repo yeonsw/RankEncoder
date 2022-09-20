@@ -30,7 +30,7 @@ We recommend to use the SNCSE checkpoint provided the authors. Please follow the
 1. Download SNCSE-bert-base-uncased.zip file at [this link](https://drive.google.com/drive/folders/1w2srzbtTMLlaxUx-7ETV9vQWdw_6lVuN?usp=sharing)
 2. Unzip this file and locate the SNCSE-bert-base-uncased folder in $PROJECT\_DIR/outputs/sncse/checkpoints/
 
-Please details at [this link](https://github.com/Sense-GVT/SNCSE) if you want to train SNCSE from scratch. 
+Please see details at [this link](https://github.com/Sense-GVT/SNCSE) if you want to train SNCSE from scratch. 
 
 ### Training RankEncoder
 1. Generate soft negative samples (please see details in the [SNCSE paper](https://arxiv.org/abs/2201.05979))
