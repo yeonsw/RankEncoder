@@ -50,6 +50,7 @@ bash get_sncse_embedding.sh
 cd ./sncse_rank_encoder/
 bash sncse_rank_encoder.sh
 ```
+We provide the checkpoint of the trained RankeEncoder-SNCSE [here](https://drive.google.com/file/d/1YSxcTl6bVXqkC2oARq9MyH_9RdBT9G-d/view?usp=share_link)
 
 ### Evaluation
 The following command will give you the performance of RankEncoder (without Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf))
