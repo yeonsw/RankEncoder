@@ -43,6 +43,8 @@ bash run_prompt_bert_rank_encoder.sh
 
 The above command will give you the performance of RankEncoder (without Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf))
 
+We provide the checkpoint of the trained RankeEncoder-PromptBERT [here](https://drive.google.com/file/d/1ixIt_TNx2c1fSfpzMPeuVMQVuqDAYMZo/view?usp=sharing)
+
 ### Evaluation
 
 The following command compute the performance of RankEncoder (with Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf))

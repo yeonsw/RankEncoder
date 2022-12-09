@@ -41,6 +41,8 @@ bash get_simcse_embedding.sh
 bash run_simcse_rank_encoder.sh
 ```
 
+We provide the checkpoint of the trained RankeEncoder-SimCSE [here](https://drive.google.com/file/d/15BvamHk4zuCSU1slOWb37bnncJ2GGIwX/view?usp=sharing)
+
 ### Evaluation
 1. The following command compute the performance of RankEncoder (without Eq.7 in [our paper](https://arxiv.org/pdf/2209.04333.pdf))
 ```bash
